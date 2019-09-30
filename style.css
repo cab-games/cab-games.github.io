@@ -3,3 +3,8 @@ body {
     font-family: 'Inconsolata', monospace;
     color: green;
 }
+
+a {
+    color: green;
+    text-decoration: underline;
+}
