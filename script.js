@@ -1,6 +1,7 @@
 new TypeIt('#hello', {
     speed: 50,
-    waitUntilVisible: true
+    waitUntilVisible: true,
+    cursorChar : '|'
   })
   .type('Welcome to Calum.GQ Games!')
   .pause(500)
