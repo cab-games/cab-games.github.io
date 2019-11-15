@@ -31,6 +31,9 @@ new TypeIt('#hello', {
   .type('<a href="https://github.calum.gq/html/breakout.html">Breakout</a>')
   .pause(500)
   .break()
+  .type('<a href="https://hexgl2.calum.gq">HexGL2</a>')
+  .pause(500)
+  .break()
   .break()
   .type('<a href="https://calum.gq">Home</a>')
   .go();
