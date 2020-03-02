@@ -34,6 +34,9 @@ new TypeIt('#hello', {
   .type('<a href="https://hexgl2.caburum.ga">HexGL2</a>')
   .pause(500)
   .break()
+  .type('<a href="https://caburum.ga/cookieclicker">Cookie Clicker</a>')
+  .pause(500)
+  .break()
   .break()
   .type('<a href="https://calum.gq">Home</a>')
   .go();
