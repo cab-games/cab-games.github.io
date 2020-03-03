@@ -40,3 +40,7 @@ new TypeIt('#hello', {
   .break()
   .type('<a href="https://calum.gq">Main Site</a>')
   .go();
+
+function skipAnimation {
+  instance.destroy(removeCursor?: false);
+}
