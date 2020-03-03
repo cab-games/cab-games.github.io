@@ -1,5 +1,5 @@
-new TypeIt('#hello', {
-    speed: 0,
+const TypeIt = new TypeIt('#hello', {
+    speed: 50,
     waitUntilVisible: true,
     cursorChar : '|'
   })
@@ -41,5 +41,6 @@ new TypeIt('#hello', {
   .type('<a href="https://calum.gq">Main Site</a>')
   .go();
 function skipAnimation() {
-  TypeIt.destroy(removeCursor?: false);
+  //TypeIt.destroy(removeCursor?: false);
+  TypeIt.options(speed: 0);
 }
