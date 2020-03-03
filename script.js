@@ -38,8 +38,10 @@ let instance = new TypeIt('#hello', {
   .pause(500)
   .break()
   .break()
-  .type('<a href="https://calum.gq">Main Site</a>')
-  .go();
+  .type('<a href="https://calum.gq">Main Site</a>');
+
+  instance.go();
+
 function skipAnimation() {
   //instance.destroy(removeCursor?: false);
   instance.options(speed: 0);
