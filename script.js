@@ -46,7 +46,7 @@ function skipAnimation {
 }
 
 $(document).ready(function() {
-    $(".skip").on("click",function(){
+    $(".skip").on("click", function(){
         alert("clicked");
         instance.destroy(removeCursor?: false);
     }); 
