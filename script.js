@@ -1,5 +1,5 @@
 new TypeIt('#hello', {
-    speed: 50000,
+    speed: 0,
     waitUntilVisible: true,
     cursorChar : '|'
   })
