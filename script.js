@@ -44,3 +44,10 @@ new TypeIt('#hello', {
 function skipAnimation {
   instance.destroy(removeCursor?: false);
 }
+
+$(document).ready(function() {
+    $(".skip").click(function(){
+        alert("button");
+        instance.destroy(removeCursor?: false);
+    }); 
+});
