@@ -1,4 +1,4 @@
-const TypeIt = new TypeIt('#hello', {
+let instance = new TypeIt('#hello', {
     speed: 50,
     waitUntilVisible: true,
     cursorChar : '|'
@@ -41,6 +41,6 @@ const TypeIt = new TypeIt('#hello', {
   .type('<a href="https://calum.gq">Main Site</a>')
   .go();
 function skipAnimation() {
-  //TypeIt.destroy(removeCursor?: false);
-  TypeIt.options(speed: 0);
+  //instance.destroy(removeCursor?: false);
+  instance.options(speed: 0);
 }
