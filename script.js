@@ -40,14 +40,3 @@ new TypeIt('#hello', {
   .break()
   .type('<a href="https://calum.gq">Main Site</a>')
   .go();
-
-function skipAnimation {
-  instance.destroy(removeCursor?: false);
-}
-
-$(document).ready(function() {
-    $(".skip").on("click", function(){
-        alert("clicked");
-        instance.destroy(removeCursor?: false);
-    }); 
-});
