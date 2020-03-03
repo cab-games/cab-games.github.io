@@ -1,9 +1,9 @@
 new TypeIt('#hello', {
-    speed: 50,
+    speed: 50000,
     waitUntilVisible: true,
     cursorChar : '|'
   })
-  .type('Welcome to Calum.GQ Games!')
+  .type('Welcome to Caburum Games!')
   .pause(500)
   .break()
   .break()
@@ -40,3 +40,6 @@ new TypeIt('#hello', {
   .break()
   .type('<a href="https://calum.gq">Main Site</a>')
   .go();
+function skipAnimation() {
+  TypeIt.destroy(removeCursor?: false);
+}
