@@ -8,3 +8,9 @@ a {
     color: green;
     text-decoration: underline;
 }
+
+.skip {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+ }
