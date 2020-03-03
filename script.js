@@ -46,8 +46,8 @@ function skipAnimation {
 }
 
 $(document).ready(function() {
-    $(".skip").click(function(){
-        alert("button");
+    $(".skip").on("click",function(){
+        alert("clicked");
         instance.destroy(removeCursor?: false);
     }); 
 });
