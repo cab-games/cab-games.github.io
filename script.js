@@ -3,7 +3,7 @@ new TypeIt('#hello', {
     waitUntilVisible: true,
     cursorChar : '|'
   })
-  .type('Welcome to Calum.GQ Games!')
+  .type('Welcome to Caburum Games!')
   .pause(500)
   .break()
   .break()
@@ -35,8 +35,8 @@ new TypeIt('#hello', {
   .pause(500)
   .break()
   .type('<a href="https://caburum.ga/cookieclicker">Cookie Clicker</a>')
-  .pause(500)
-  .break()
-  .break()
-  .type('<a href="https://calum.gq">Main Site</a>')
+//  .pause(500)
+//  .break()
+//  .break()
+//  .type('<a href="https://calum.gq">Main Site</a>')
   .go();
