@@ -1,4 +1,4 @@
-new TypeIt('#hello', {
+new TypeIt('#typeit', {
     speed: 50,
     waitUntilVisible: true,
     cursorChar : '|'
@@ -39,4 +39,15 @@ new TypeIt('#hello', {
 //  .break()
 //  .break()
 //  .type('<a href="https://calum.gq">Main Site</a>')
+  .exec(async () => {
+    $(".skip").remove();
+  })
   .go();
+
+$(document).ready(function() {
+  $(".skip").on("click", function(){
+      $("#typeit-container").remove();
+      $("#text").removeClass("text");
+      $(".skip").remove();
+  }); 
+});

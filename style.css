@@ -1,16 +1,22 @@
+@font-face {
+  font-family: 'regular3270';
+  src: url(regular3270.woff), url(regular3270.ttf);
+}
 body {
-    background-color: black;
-    font-family: 'Inconsolata', monospace;
-    color: green;
+  background-color: black;
+  font-family: 'regular3270', 'Inconsolata', monospace;
+  color: green;
 }
-
 a {
-    color: green;
-    text-decoration: underline;
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
 }
-
 .skip {
-    position: absolute;
-    top: 10px;
-    right: 10px;
- }
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.text {
+  display: none;
+}
