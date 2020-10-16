@@ -16,9 +16,9 @@ new TypeIt('#typeit', {
   .type('<a href="https://caburum.ga/Depression-Game">Depression Game</a>')
   .pause(50)
   .break()
-  .type('<a href="http://orteil.dashnet.org/igm/?g=https://raw.githubusercontent.com/caburum-games/Computer-Clicker/master/game.txt">Computer Clicker Beta</a>')
+  /*.type('<a href="http://orteil.dashnet.org/igm/?g=www.caburum.ga/Computer-Clicker/game.txt">Computer Clicker Beta</a>')
   .pause(50)
-  .break()
+  .break()*/
   .type('<a href="https://dos.caburum.ga">MS-DOS Games</a>')
   .pause(500)
   .break()
